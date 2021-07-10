@@ -16,4 +16,6 @@
 # Add a feed source
 #echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
 #echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
-sed -i '$a src-git lienol https://github.com/garypang13/openwrt-packages' feeds.conf.default
+#sed -i '$a src-git lienol https://github.com/garypang13/openwrt-packages' feeds.conf.default
+sed -i '$a src-git lienol https://github.com/garypang13/openwrt-bypass' feeds.conf.default
+echo 'src-git dnsfilter https://github.com/garypang13/luci-app-dnsfilter' >>feeds.conf.default
